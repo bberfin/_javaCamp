@@ -23,9 +23,8 @@ public class App {
             for(Lesson lesson : lessons){
                 studentManager.addLessonToStudent(student, lesson);              
             }
-        }
-
-        
+        }  
 
     }
+
 }
