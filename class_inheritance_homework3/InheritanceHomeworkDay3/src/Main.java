@@ -6,7 +6,7 @@ public class Main {
 		student1.setId(1);
 		student1.setFirstName("Berfin");
 		student1.setLastName("Acikgoz");
-		student1.setEmail("bbb@gmail.com");
+		student1.setEmail("bbbb@gmail.com");
 		student1.setStudentNo(1204);
 		student1.setGettingEducation(true);
 		
@@ -14,7 +14,7 @@ public class Main {
 		student2.setId(2);
 		student2.setFirstName("Songul");
 		student2.setLastName("Acikgoz");
-		student2.setEmail("sss@gmail.com");
+		student2.setEmail("ssss@gmail.com");
 		student2.setStudentNo(2314);
 		student2.setGettingEducation(false);		
 		
@@ -22,7 +22,7 @@ public class Main {
 		instructor1.setId(3);
 		instructor1.setFirstName("Engin");
 		instructor1.setLastName("Demirog");
-		instructor1.setEmail("eee@gmail.com");
+		instructor1.setEmail("eeee@gmail.com");
 		instructor1.setField("software");
 	    instructor1.setDescription("He has Microsoft Certified Trainer (MCT), PMP and ITIL certificates.");
 
