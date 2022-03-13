@@ -1,19 +1,19 @@
 public class CustomerManager {
 
-    private Logger logger;
+    private Logger[] loggers;
 
-    public CustomerManager(Logger logger) {
-        this.logger = logger;
+    public CustomerManager(Logger[] loggers) {
+        this.loggers = loggers;
     }
 
     public void add(Customer customer){
-        System.out.println("customer is added : "+customer.getFirstName());
-        logger.log(customer.getFirstName()+" is logged");
+        System.out.println("customer is added : "+customer.getFirstName()); 
+        Utils.runLoggers(loggers, customer.getFirstName() + " is added.");
     }
     
     public void delete(Customer customer){
         System.out.println("customer is deleted : "+customer.getFirstName());
-
+        Utils.runLoggers(loggers, customer.getFirstName() + " is deleted.");
     }
-    
+
 }
