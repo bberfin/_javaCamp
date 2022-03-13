@@ -12,6 +12,4 @@ public class InstructorManager extends UserManager {
 		System.out.println("-------------------------------------------------------------------");				
 	}
 	
-
-	
 }
