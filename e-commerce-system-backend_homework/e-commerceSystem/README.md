@@ -14,7 +14,7 @@ Requirements and acceptance criteria for registration and login to the system in
 
 *A confirmation e-mail should be sent to the user as a result of membership. (Simulation)
 
-* Membership must be completed when the verification link is clicked. (Simulation)
+*Membership must be completed when the verification link is clicked. (Simulation)
 
 *In case of failure or success, the user should be informed.
 
