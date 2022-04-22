@@ -1,18 +1,20 @@
-## Getting Started
+Requirements and acceptance criteria for registration and login to the system in an e-commerce system and the Java backend of this system
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+* Users must be able to become a member by entering their information into the system.
 
-## Folder Structure
+* It must be possible to become a member of the system with basic user information, e-mail and password. Basic user information: first name, last name, email, password. All the basics are mandatory.
+*Password must be at least 6 characters.
+*Email field must be in e-mail format. (regex)
+*E-Mail must not have been used before.
+*Name and surname must be at least two characters.
+*A confirmation e-mail should be sent to the user as a result of membership. (Simulation)
+* Membership must be completed when the verification link is clicked. (Simulation)
+*In case of failure or success, the user should be informed.
+*Users must be able to sign up to the system with their Google accounts. (Simulation)
 
-The workspace contains two folders by default, where:
+*Other authorization services may be used in the future. (Configuring the system for external service integration.)
+*In case of failure or success, the user should be informed.
+*Users must be able to login to the system with their e-mail and password information.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+*Email and password are required
+*In case of failure or success, the user should be informed.
